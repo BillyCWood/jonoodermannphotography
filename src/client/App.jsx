@@ -20,6 +20,7 @@ function App() {
       <Portfolio />
       <About />
       <Contact />
+      <Footer />
       
     </main>
   )
