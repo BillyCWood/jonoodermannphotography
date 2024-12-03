@@ -1,5 +1,5 @@
 import React from 'react'
-import { Element, Link as LinkScroll } from 'react-scroll';
+import { Element } from 'react-scroll';
 
 const Services = () => {
   return (
@@ -17,8 +17,8 @@ const Services = () => {
               className='w-full h-auto opacity-90 transition-transform ease-in-out duration-700
                 -translate-y-32 group-hover:-translate-y-0
                 md:-translate-y-64 group-hover:md:-translate-y-32
-                lg:-translate-y-96 group-hover:lg:-translate-y-72
-                xl:-translate-y-1/3 group-hover:xl:-translate-y-[30rem]'
+                lg:-translate-y-96 group-hover:lg:-translate-y-64
+                xl:-translate-y-1/3 group-hover:xl:-translate-y-[27rem]'
             />
             
             <div className='absolute w-full translate-y-1/4'>
