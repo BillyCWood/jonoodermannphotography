@@ -31,11 +31,11 @@ body{
 }
 
 .card {
-    @apply flex flex-col border-2 border-jop-green w-24 h-64;
+    @apply flex flex-col border-2 border-jop-green bg-jop-green h-20 w-4/5 overflow-hidden relative;
 }
 
 .card-grow {
-    @apply hover:w-1/2 transition-all duration-700;
+    @apply hover:h-96 transition-all duration-700;
 }
 
 .card-grow-text {
