@@ -41,3 +41,11 @@ body{
 .card-grow-text {
     @apply opacity-0 group-hover:opacity-100 mt-10 transition-opacity delay-150;
 }
+
+.card-grow-header {
+    @apply group-hover:shadow-md group-hover:shadow-black transition-shadow ease-out duration-300 py-7;
+}
+
+.section-title {
+    @apply text-jop-green text-xl font-[500] mb-10;
+}
