@@ -1,6 +1,6 @@
 import React from 'react'
 import { Element, Link as LinkScroll } from 'react-scroll';
-import ContactForm from '../components/ContactForm';
+import { ContactForm } from '../components';
 
 const Contact = () => {
   return (
