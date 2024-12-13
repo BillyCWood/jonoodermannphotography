@@ -49,3 +49,7 @@ body{
 .section-title {
     @apply text-jop-green text-xl font-[500] mb-10;
 }
+
+.chevron {
+    @apply border-b-2 border-white w-3 h-2 block absolute float-end;
+}

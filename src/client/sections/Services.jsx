@@ -23,7 +23,7 @@ const Services = () => {
             />
             
             <div className='absolute w-full'>
-              <h1 className='card-grow-header'>Portraits</h1>
+              <h1 className='card-grow-header relative'>Portraits <span className='chevron -rotate-45 translate-x-1 top-1/2 right-[5%]' /><span className="chevron rotate-45 top-1/2 right-[5%]" /></h1>
               <p className='card-grow-text'>Service description</p>
             </div>
           </div>
@@ -43,7 +43,7 @@ const Services = () => {
             />
 
             <div className='absolute w-full'>
-              <h1 className='card-grow-header'>Events</h1>
+              <h1 className='card-grow-header relative'>Events <span className='chevron -rotate-45 translate-x-1 top-1/2 right-[5%]' /><span className="chevron rotate-45 top-1/2 right-[5%]" /></h1>
               <p className='card-grow-text'>Service description</p>
             </div>
           </div>
@@ -62,7 +62,7 @@ const Services = () => {
             />
 
             <div className='absolute w-full'>
-              <h1 className='card-grow-header'>Prints</h1>
+              <h1 className='card-grow-header relative'>Prints <span className='chevron -rotate-45 translate-x-1 top-1/2 right-[5%]' /><span className="chevron rotate-45 top-1/2 right-[5%]" /></h1>
               <p className='card-grow-text'>Service description</p>
             </div>
           </div>
