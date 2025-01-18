@@ -38,7 +38,7 @@ const ContactForm = () => {
 
 
     return (
-        <form action='POST' className='w-1/2 mx-auto flex flex-col gap-y-6'>
+        <form action='POST' className='w-3/4 md:w-3/5 lg:w-1/2 2xl:w-1/3 mx-auto flex flex-col gap-y-6'>
             <div className='flex max-lg:flex-col lg:gap-x-16 max-lg:gap-y-6 justify-between'>
                 <div className='flex flex-col items-start w-full'>
                     <label htmlFor='name'>Name</label>

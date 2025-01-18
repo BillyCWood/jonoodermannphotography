@@ -9,7 +9,7 @@ const Hero = () => {
         <div className='text-center w-full flex flex-col'>
           <div className='relative w-full bg-jop-green'>
             <img 
-              src='images/jono_trees-mountain-snow.jpg'
+              src='images/jono_trees-mountain-snow.webp'
               alt='image of Montana trees and mountains with snow'
               loading='eager'
               className='w-full h-auto opacity-70'

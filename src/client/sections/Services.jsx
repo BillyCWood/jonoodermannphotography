@@ -11,7 +11,7 @@ const Services = () => {
 
           <div className='group card card-grow'>
             <img 
-              src='images/ethan1.jpg'
+              src='images/ethan1.webp'
               alt=''
               loading='lazy'
               className='w-full h-auto opacity-90 transition-transform ease-in-out duration-700
@@ -31,7 +31,7 @@ const Services = () => {
           
           <div className='group card card-grow'>
             <img 
-              src='images/odermannfamilyreunioin-21.jpg'
+              src='images/odermannfamilyreunioin-21.webp'
               alt=''
               loading='lazy'
               className='w-full h-auto opacity-80 transition-transform ease-in-out duration-700

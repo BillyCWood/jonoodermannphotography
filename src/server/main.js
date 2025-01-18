@@ -1,16 +1,23 @@
 import express from "express";
 import ViteExpress from "vite-express";
+/* 
+import sgMail from '@sendgrid/mail';
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
-import { body, validationResult } from 'express-validator';
-import bodyParser from "body-parser";
-import cors from 'cors';
+const msg = {
+  to: 'billyc.wood4@gmail.com',
+  from: 'rowly.dev@gmail.com',
+  subject: 'testing SendGrid',
+  text: 'Testing how to send emails via SendGrid',
+  html: '<strong>html section</strong>'
+}
+
+sgMail.send(msg)
+  .then(() => { console.log('Email sent') })
+  .catch((error) => { console.log('ERROR\n', error) })
+*/
 
 const app = express();
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-app.use(cors());
-
-const urlendcodedParser = bodyParser.urlencoded({ extended: false })
 
 
 app.post('/', (req, res) => {
